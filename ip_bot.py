@@ -1,3 +1,4 @@
+#To work, you will need a BOT TOKEN, you can get it in https://t.me/BotFather
 import asyncio
 import logging
 import sys
