@@ -16,14 +16,13 @@ from fake_useragent import UserAgent
 TOKEN = "your token"
 
 dp = Dispatcher()
-
 ua = UserAgent()
 headers = {'User-Agent': ua.random}
 
 def format_ip_info(ip):
     url = f'https://ipapi.co/{ip}/json/'
     try:
-        info = stealth_requests.get(url, headers).json()
+        info = stealth_requests.get(url, headers=headers).json()
         if 'error' in info:
             return f"Error: {info['reason']}"
 
