@@ -1,0 +1,4 @@
+fake-useragent
+ipwhois
+stealth-requests
+aiogram==3.20.0
