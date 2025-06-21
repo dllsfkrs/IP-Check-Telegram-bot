@@ -6,7 +6,7 @@ Python libraries
 [stealth-requests](https://pypi.org/project/stealth-requests/) - HTTPS requests      
 [fake-useragent](https://pypi.org/project/fake-useragent/) - random user-agent for requests      
 [ipwhois](https://pypi.org/project/ipwhois/) - WHOIS information   
-[aiogram](https://pypi.org/project/aiogram/) - to work with Telegram Bot API   
+[aiogram](https://pypi.org/project/aiogram/) - work with Telegram Bot API   
 
 API    
 [ipapi](https://ipapi.co/) - IP address information    
@@ -21,8 +21,9 @@ API
 4. Virtual environment activation
 - ```source venv/bin/activate```
 5. Installing dependencies
-- ```pip install -r requirements.txt / pip install stealth-requests ipwhois fake-useragent```
+- ```pip install -r requirements.txt / pip install stealth-requests ipwhois fake-useragent aiogram==3.20.0```
 6. Running the script  
 - ```python ip_bot.py```
+
    
 The developer is not responsible for your actions.   
